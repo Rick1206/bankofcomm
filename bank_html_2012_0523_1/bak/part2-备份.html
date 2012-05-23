@@ -1,0 +1,1668 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<link href="css/base.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<link href="css/jScrollPane.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2min.js"></script>
+<script language="javascript" src="js/jquery.lightbox.js"></script>
+<script language="javascript" src="js/jScrollPane.js"></script>
+<script language="javascript" src="js/jquery.mousewheel.js"></script>
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js" charset="utf-8"></script>
+<script>
+	DD_belatedPNG.fix('.png,.eaMask,.step li');
+    document.execCommand("BackgroundImageCache",false,true);
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="tips" id="tips">
+<div class="tip-left"><a id="tipclose"></a></div>
+<div class="tip-right"></div>
+</div>
+<div class="header">
+<!--<h4 id="ts"></h4>-->
+	<a href="" class="fl"><img src="images/logo.jpg" /></a>
+    <a href="" class="fr"><img src="images/hsbc.jpg" /></a>
+</div>
+<div class="center part_step">
+	<ul class="step">
+    	<li class="on">1. 产品选择</li>
+        <li>2. 基本资料填写</li>
+        <li>3. 工作资料填写</li>
+        <li>4. 其他资料填写</li>
+        <li>5. 自选服务</li>
+        <li>6. 证件照片上传</li>
+        <li>7. 资料确认并提交</li>
+    </ul>
+    <div id="steps">
+    
+    
+    <div class="part_content steps" style="display:block;">
+    	<span class="step_state"><img src="images/step_2_1.png" class="png" /></span>
+        <div class="part_title png">产品选择</div>
+        <div class="part_content_part01">
+        	<div class="r_info"><strong>您所在的城市：</strong><select class="bor bo_150"><option>城市</option></select></div>
+            <div class="r_info font-red">！如您所在城市不在列表中，则暂时无法通过网络申请办卡</div>
+        	<div class="stroke bor">
+            	<strong class="stroke_title">您希望申请的卡产品</strong>
+            	<div>
+                	<select class="bor bo_73"><option>种类</option></select>
+                    <select class="bor bo_93"><option>联名卡类别</option></select>
+                    <select class="bor bo_83"><option>卡产品</option></select>
+                    <select class="bor bo_83"><option>卡等级</option></select>
+                    <select class="bor bo_83"><option>卡组织</option></select>
+                </div>
+                <div class="ptb12 ol">
+                	<img src="images/card.png" class="fl" />
+                    <div class="fl w260">
+                    	<span class="fb">标准信用卡</span>
+<p>交通银行标准信用卡提供完善的信用卡金融服务，
+密码签名，自由选择，免息还款期最长可达56天，
+拥有“礼享生活”“尊享优越”等多项优惠计划，
+让您尽享刷卡的无穷乐趣。</p>
+<a href="#" class="btn_detail">了解更多卡产品信息 &gt;&gt;</a>
+                    </div>
+                </div>
+                <div>
+                	<strong>第三方会员号：</strong><input name="" id="cardnumber" type="text" value="" size="" class="bor bo_150" />
+                </div>
+            </div>
+            <div class="r_info"><div class="agreement"><label><input type="checkbox" class="fl" /></label><p class="p1"><label class="p1">本人已阅读并知晓<a href="#" id="rule_btn">《交通银行太平洋贷记卡章程》</a>、<a href="#" id="contract_btn">《交通银行太平洋个人贷记
+卡领用合约》</a>、<a href="#">收费表所载内容</a></label></p></div></div>
+			
+            <div class="r_info clear">
+            	<div class="agreement"><span class="fb">提示：</span>如您申请贷记卡金卡而本行暂不能核发，本行将视为贷记卡普卡申请进行审批。</div>
+            </div>
+            
+            <!--<div class="r_info"><div class="agreement">
+            	<div class="agreement-radi png">
+                <span class="fb">我要申请附属卡</span>&nbsp;&nbsp;&nbsp;
+                <label><input name="agree" type="radio" value="" />&nbsp;&nbsp;现在申请</label> 
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;               
+                <label> <input name="agree" type="radio" value="" />&nbsp;&nbsp;暂不申请</label> 
+                </div>
+            </div></div>-->
+            
+        </div>
+    </div>
+    
+    <div class="part_content steps">
+    	<span class="step_state"><img src="images/step_2_2.png" class="png" /></span>
+        <div class="part_title png">产品选择</div>
+        <div class="part_content_part01">
+        	<div class="stroke bor">
+            	<strong class="stroke_title">您参加的营销活动：</strong>
+            	<div class="pb8">
+                	<label><input type="radio" name="active" /> 立即申请交通银行信用卡，只要刷50就送50</label>&nbsp;
+                    <a href="#" class="button_ash_small on" id="active_1">详细</a>
+                </div>
+                
+                <div class="ra_box dn" id="act1_info">
+                	<div class="ra_box_content">
+                    	<div class="ra_box_content_left"><img src="images/active/demo.jpg" /></div>
+                        <div class="ra_box_content_right"><p>活动时间：2011-12-01至2012-05-31<br />活动介绍：立即申请交通银行信用卡，新客户只要刷50就送50！</p><a href="#" class="bottom-red">了解更多</a></div>
+                    </div>
+                </div>
+                
+                <div class="pb8">
+                	<label><input type="radio" name="active" /> &quot;给幸福加分&quot;-立即申请，10000积分轻松享！</label>&nbsp;
+                    <a href="#" class="button_ash_small on" id="active_2">详细</a>
+                </div>
+                
+                <div class="ra_box dn" id="act2_info">
+                	<div class="ra_box_content">
+                    	<div class="ra_box_content_left"><img src="images/active/demo.jpg" /></div>
+                        <div class="ra_box_content_right"><p>活动时间：2011-12-01至2012-05-31<br />活动介绍：立即申请交通银行信用卡，新客户只要刷50就送50！</p><a href="#" class="bottom-red">了解更多</a></div>
+                    </div>
+                </div>
+                
+                
+                <div class="pb8">
+                	<label><input type="radio" name="active" /> 捍卫生活品质，立即申请交通银行信用卡 享精彩活动</label>&nbsp;
+                    <a href="#" class="button_ash_small on" id="active_3">详细</a>
+                </div>
+                
+                 <div class="ra_box dn" id="act3_info">
+                	<div class="ra_box_content">
+                    	<div class="ra_box_content_left"><img src="images/active/demo.jpg" /></div>
+                        <div class="ra_box_content_right"><p>活动时间：2011-12-01至2012-05-31<br />活动介绍：立即申请交通银行信用卡，新客户只要刷50就送50！</p><a href="#" class="bottom-red">了解更多</a></div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            
+            
+        	<div class="stroke bor">
+            	<strong class="stroke_title ash">您希望获得的礼品：</strong>
+            	<div class="pb8 ol">
+                <label>
+                	<div class="radio"><input type="radio" name="active" align="top" /> </div>
+                    <div class="present">
+                    	<img src="images/active/pre_1.jpg" />
+                        时尚随心枕
+                    </div>
+                </label>    
+                 <label>   
+                    <div class="radio"><input type="radio" name="active" /> </div>
+                    <div class="present">
+                    	<img src="images/active/pre_2.jpg" />
+                        伊莱克斯多士炉
+                    </div>
+                 </label>      
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>    
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_2_1.png" class="png" /></span>
+        <div class="part_title png">个人资料</div>
+        <div class="part_content_part01">
+        	<div class="r_info"><strong>中文姓名：</strong><input name="" id="basic_name" defaultMessage="请输入您的姓名" emptyMessage="请输入您的姓名" type="text" value="" size="" class="bor bo_150" /></div>
+            <div class="r_info"><strong>拼音/英文名字：</strong><input name="" id="basic_name_en" type="text" value="" size="" class="bor bo_83" /> <input name="" type="text" id="basic_name_en_1" value="" size="" class="bor bo_150" /></div>
+            <div class="r_info"><strong>国家/地区：</strong><select class="bor bo_150" id="basic_area"><option>中国大陆</option></select></div>
+            <div class="r_info"><strong>证件类型：</strong><select class="bor bo_150" id="basic_cardtype"><option value="0">境内居民身份证 </option><option value="1">护照 </option>
+            <option value="2">港澳居民来往内地通行证</option>
+            <option value="3">台湾同胞来往内地通行证（台胞证）</option>
+            <option value="4">军官证（军官退休证、军人证、文职军官证、军官文职证、军人文职证、中华人民解放军文职干部证）</option>
+            <option value="5">士兵证</option>
+            <option value="6">警官证、警察工作证、警察退休证</option>
+            <option value="7">外国人居留证</option>
+            <option value="8">其他</option>
+            </select>
+            
+            
+            
+            
+            </div>
+            <div class="r_info"><strong>证件号码：</strong><input name="" type="text" id="basic_cardnumber" defaultMessage="请输入您的证件号码" emptyMessage="请输入您的证件号码" value="" size="" class="bor bo_150" /></div>
+            
+            <div class="r_info"><strong>证件有效期：</strong>
+            起始 <select class="bor bo_50"><option>2012</option></select> 年 <select class="bor bo_50"><option>01</option></select> 月 <select class="bor bo_50"><option>01</option></select> 日</div>
+            
+            <div class="r_info"><strong>&nbsp;</strong>
+            <input type="radio" /> 截止 <select class="bor bo_50"><option>2012</option></select> 年 <select class="bor bo_50"><option>01</option></select> 月 <select class="bor bo_50"><option>01</option></select> 日
+&nbsp;&nbsp;&nbsp; <label><input type="radio" /> 长期有效</label>
+            </div>
+                        
+            <div class="r_info"><strong>性别：</strong>
+            <label><input name="sex" type="radio" /> 男</label>&nbsp;&nbsp;<label><input name="sex" type="radio" /> 女</label>
+            </div>
+            
+             <div class="r_info"><strong>出生日期：</strong><input name="" type="text" id="basic_birthday" defaultMessage="请输入出生日期" emptyMessage="请输入出生日期" value="" size="" class="bor bo_150" /></div>
+
+			<div class="r_info"><strong>籍贯：</strong>
+             <select class="bor bo_83"><option>省份</option></select> <select class="bor bo_83"><option>市</option></select> <select class="bor bo_150"><option>区、县、县级市</option></select>
+             </div>
+
+<div class="r_info"><strong>婚姻状况：</strong><select class="bor bo_150">
+<option value="0">已婚</option>
+<option value="1">未婚</option>
+<option value="2">其它</option>
+</select></div>
+<div class="r_info"><strong>供养人数：</strong><select class="bor bo_150">
+<option value="0">0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5及以上</option>
+</select></div>
+            <div class="r_info"><strong>教育程度：</strong><select class="bor bo_150">
+            <option value="0">研究生或以上</option>
+            <option value="1" selected="selected">大学</option>
+            <option value="2">大专</option>
+            <option value="3">高中</option>
+            <option value="4">中专</option>
+            <option value="5">初中及以下</option>
+            
+            </select>
+            
+            </div>
+            
+        </div>
+    </div>    
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_2_2.png" class="png" /></span>
+        <div class="part_title png">个人资料</div>
+        <div class="part_content_part01">
+        	
+             <div class="r_info"><strong>住宅地址：</strong>
+             <select class="bor bo_83"><option>省/市</option></select> <select class="bor bo_83"><option>市/地区</option></select> <select class="bor bo_83"><option>区</option></select>
+             </div>
+             <div class="r_info"><strong>&nbsp;</strong>
+             <input name="" type="text" size="" value="号（室）" defaultMessage="" emptyMessage="" class="bor bo_150" style="width:258px" />
+             </div>
+             
+              <div class="r_info"><strong>邮政编码：</strong><input name="" type="text" value="" size="" id="basic_zip" defaultMessage="请输入您的邮政编码" emptyMessage="请输入您的邮政编码" class="bor bo_150" /></div>
+              
+              <div class="r_info"><strong>住宅电话：</strong>区号  <input name="" type="text" value="" size="" class="bor bo_50" id="basic_tel_p1" defaultMessage="请输入电话区号" emptyMessage="请输入电话区号" /> 电话 <input name="" type="text" value="" size="" class="bor bo_100" id="basic_tel_p2" defaultMessage="请输入住宅电话" emptyMessage="请输入住宅电话" /></div>
+              <div class="r_info otip"><strong>&nbsp;</strong><p class="fl bo_340">！如您没有住宅电话，请填写您的直系亲属家庭住所的住宅电话并请注明与您的关系</p>
+</div>
+              
+             
+             <div class="r_info"><strong>移动电话：</strong><input name="" type="text" value="" size="" class="bor bo_150" id="basic_mobile" defaultMessage="请输入您的移动电话" emptyMessage="请输入您的移动电话" /></div>
+            
+            <div class="r_info"><strong>移动电话验证码：</strong><input name="" type="text" value="" size="" class="bor bo_150" id="basic_vcode" defaultMessage="请输入您的移动电话验证码" emptyMessage="请输入您的移动电话验证码" />&nbsp;<button class="bottom-91 png">获取验证码</button></div>
+             
+              <div class="r_info"><strong>电子邮件：</strong>
+             <input name="" type="text" size="" id="basic_email_p1" value="" class="bor bo_83" defaultMessage="请输入您的电子邮件" emptyMessage="请输入您的电子邮件" /> @  <input name="" type="text" id="basic_email_p2" defaultMessage="请输入您的电子邮件" emptyMessage="请输入您的电子邮件" size="" value="" class="bor bo_83" />
+             </div>
+             
+             
+              <div class="r_info"><strong>住宅状况：</strong>
+             <select class="bor bo_100">
+             
+             <option value="0">自置无按揭</option>
+             <option value="1">自置有按揭</option>
+             <option value="2">商住两用</option>
+             <option value="3">租用</option>
+             <option value="4">与父母同住</option>
+             <option value="5">集体宿舍</option>
+             <option value="6">其他</option>
+             
+             
+             </select>&nbsp;&nbsp;&nbsp;&nbsp;住宅年月 <input name="" type="text" id="basic_inhome_year" size="" value="" class="bor bo_83" /> 年 <input name="" id="basic_inhome_month" type="text" size="" value="" class="bor bo_50" /> 月
+             </div>
+             
+             <div class="r_info"><strong>车牌号码：</strong>
+             <input name="" type="text" size="" value="" class="bor bo_20 nbr" defaultMessage="" emptyMessage="" /><input name="" type="text" size="" value="" class="bor bo_20" defaultMessage="" emptyMessage="" />&nbsp;&nbsp;&nbsp;&nbsp;<input name="" type="text" size="" value="" class="bor bo_150" defaultMessage="" emptyMessage="" />
+             </div>
+             
+             <div class="r_info"><strong>毕业小学名称：</strong>
+             <input name="" type="text" size="" value="" class="bor bo_100" defaultMessage="" emptyMessage="" /> 
+             </div>
+            
+        </div>
+    </div>
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_1_1.png" class="png" /></span>
+        <div class="part_title png">工作资料</div>
+        <div class="part_content_part01">
+            <div class="r_info"><strong>就业状态：</strong><select class="bor bo_83">
+            <option value="0">全职/有薪</option>
+            <option value="1">兼职</option>
+            <option value="2">家庭主妇</option>
+            <option value="3">退休人士</option>
+            <option value="4">自雇人士</option>
+            <option value="5">临时合同工</option>
+            <option value="6">学生</option>
+            <option value="7">失业人士</option>
+            <option value="8">其它</option>
+            
+            </select></div>
+        	<div class="r_info"><strong>单位名称：</strong><input name="" type="text" value="" id="company_name" defaultMessage="请输入您的单位名称" emptyMessage="请输入您的单位名称" size="" class="bor bo_235" style="width:220px;" /></div>
+            <div class="r_info"><strong>单位电话：</strong>区号  <input name="" type="text" value="" id="company_tel_p1" defaultMessage="请输入电话区号" emptyMessage="请输入电话区号" size="" class="bor bo_50" /> 电话 <input name="" type="text" value="" id="company_tel_p2" size="" class="bor bo_100" /> 分机  <input name="" type="text" value="" id="company_tel_p3" defaultMessage="请输入您的单位电话" emptyMessage="请输入您的单位电话" size="" class="bor bo_50" /></div>
+            <div class="r_info"><strong>单位地址：</strong>
+             <select class="bor bo_83"><option>省/市</option></select> <select class="bor bo_83"><option>市/地区</option></select> <select class="bor bo_83"><option>区</option></select>
+             </div>
+            <div class="r_info"><strong>&nbsp;</strong>
+             <input name="" type="text" size="" value="号（室）" class="bor bo_150" style="width:220px;" />
+             </div>
+            
+            <div class="r_info"><strong>邮政编码：</strong><input name="" type="text" value="" size="" class="bor bo_150" defaultMessage="请输入您的邮政编码" emptyMessage="请输入您的邮政编码" /></div>
+            
+            <div class="r_info"><strong>单位性质：</strong><select class="bor bo_150">
+            
+            <option value="0">机关事业单位</option>
+            <option value="1">社会团体</option>
+            <option value="2">国有企业</option>
+            <option value="3">三资企业</option>
+            <option value="4">上市公司</option>
+            <option value="5">民营</option>
+            <option value="6">私营</option>
+            <option value="7">个体</option>
+            <option value="8">其它</option>
+            
+            </select> <!--<input name="" type="text" value="" size="" class="bor bo_100"/>--></div>
+            
+            <div class="r_info"><strong>行业类别：</strong> <select class="bor bo_150">
+            
+            <option value="0">农、林、牧、渔业</option>
+            <option value="1">采掘业</option>
+            <option value="2">制造业</option>
+            <option value="3">电力、燃气及水的生产和供应业</option>
+            <option value="4">建筑业</option>
+            <option value="5">交通运输、仓储和邮政业</option>
+            <option value="6">信息传输、计算机服务和软件业</option>
+            <option value="7">批发和零售业</option>
+            <option value="8">住宿和餐饮业</option>
+            <option value="9">金融业</option>
+            <option value="10">房地产业</option>
+            <option value="11">租赁和商务服务业</option>
+            <option value="12">科学研究、技术服务业和地质勘察业</option>
+            <option value="13">水利、环境和公共设施管理业</option>
+            <option value="14">居民服务和其它服务业</option>
+            <option value="15">教育</option>
+            <option value="16">卫生、社会保障和社会福利业</option>
+            <option value="17">文化、体育和娱乐业</option>
+            <option value="18">公共管理和社会组织</option>
+            <option value="19">国际组织</option>
+            <option value="20">其它</option>
+            <option value="21">广告业</option>
+            <option value="22">电讯业</option>
+            <option value="23">银行业</option>
+            <option value="24">保险业</option>
+            <option value="25">法律业</option>
+            <option value="26">军事业</option>
+            <option value="27">出版业</option>
+            <option value="28">旅行观光业</option>
+            <option value="29">酒店业</option>
+            <option value="30">政府</option>
+             
+            </select>
+            
+            </div>
+            
+             <div class="r_info"><strong>任职部门：</strong><input name="" type="text" value="" size="" id="company_depa" defaultMessage="请输入任职部门" emptyMessage="请输入任职部门" class="bor bo_150" /></div>
+              <div class="r_info"><strong>工作岗位：</strong>
+              <!--<input name="" type="text" value="" size="" id="company_depa_name" defaultMessage="请输入工作岗位" emptyMessage="请输入工作岗位" class="bor bo_150" style="width:220px;" />-->
+              <select class="bor bo_150">
+            
+            <option value="0"></option>
+            <option value="1"></option>
+            <option value="2"></option>
+            <option value="3"></option>
+          
+            </select>
+              </div>
+            
+             
+             <div class="r_info"><strong>税前年薪收入：</strong><input name="" type="text" value="" size="" id="company_val_b" defaultMessage="请输入您的税前年薪收入" emptyMessage="请输入您的税前年薪收入" class="bor bo_150" /> 元</div>
+             
+            <div class="r_info"><strong>税前其他收入：</strong><input name="" type="text" value="" size="" id="company_val_a" defaultMessage="请输入您的税前其他收入" emptyMessage="请输入您的税前其他收入" class="bor bo_150" /> 元</div> 
+             
+             <div class="r_info"><strong>薪金支付方式：</strong><select class="bor bo_150"><option>银行自动转帐支付</option></select></div>
+             
+             <div class="r_info"><strong>现单位工作起始：</strong><select class="bor bo_50"><option>2012</option></select> 年 <select class="bor bo_50"><option>01</option></select> 月</div>
+             
+             <div class="r_info"><strong>前一单位工龄：</strong><input name="" type="text" value="" size="" id="company_workyear" defaultMessage="请输入前一单位工龄" emptyMessage="请输入前一单位工龄" class="bor bo_83" />月</div>
+             
+           
+        </div>
+    </div>    
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_1_1.png" class="png" /></span>
+        <div class="part_title png">其它资料</div>
+        <div class="part_content_part01">
+        <p class="pb8">&nbsp;</p>
+        
+        <div class="r_info">您是否为交通银行客户： <label><input name="isc" type="radio" /> 是</label>&nbsp;&nbsp;<label><input name="isc" type="radio" /> 否</label> </div>
+        
+        
+        <div class="r_info">您已持有的信用卡的发卡银行： <input name="" type="text" size="" value="" class="bor bo_150" /></div>
+        
+          <div class="r_info">请将信用卡、信用卡对账单、信用卡有关函件寄往本人： <input name="add" type="radio" /> 住宅地址 <input name="isc" type="radio" /> 单位地址 </div>
+          
+           <div class="r_info"><span class="fb">您的联系人信息</span></div>
+          
+        
+            <div class="r_info"><strong>中文姓名：</strong><input name="" type="text" value="" size="" class="bor bo_150" defaultMessage="请输入您的中文姓名" emptyMessage="请输入您的电话区号" /></div>
+        	<div class="r_info"><strong>与您的关系：</strong><input name="" type="text" value="" size="" class="bor bo_150" /></div>
+            <div class="r_info"><strong>单位名称：</strong><input name="" type="text" value="" size="" class="bor bo_150" defaultMessage="请输入您的单位名称" emptyMessage="请输入您的单位名称" /></div>
+            <div class="r_info"><strong>移动电话：</strong><input name="" type="text" value="" size="" class="bor bo_150" defaultMessage="请输入您的移动电话" emptyMessage="请输入您的移动电话" /></div>
+            <div class="r_info"><strong>住宅电话：</strong>区号  <input name="" type="text" value="" size="" class="bor bo_50" defaultMessage="请输入电话区号" emptyMessage="请输入电话区号" /> 电话 <input name="" type="text" value="" size="" class="bor bo_100" defaultMessage="请输入住宅电话" emptyMessage="请输入住宅电话" /></div>
+           
+           
+        </div>
+    </div>
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_2_1.png" class="png" /></span>
+        <div class="part_title png">自选服务</div>
+        <div class="part_content_part01">
+            <div class="custom hb">
+            <p class="pb8"><strong>交易确认选择：</strong></p>
+<p class="pb8">信用卡刷卡消费默认使用签名确认交易，但您可在此选择在中国银联商户（贴有包括“仅受理
+信用卡”或“仅支持签名”字样的银联标识商户除外）刷卡消费时使用密码确认交易：</p>
+<p><label><input type="radio" name="up" /> 仅使用签名确认交易</label> <label><input type="radio" name="up" /> 使用密码确认交易</label> <a href="#" class="btn_detail fr">了解详细业务条款 &gt;&gt;</a></p>
+            </div>   
+            
+            <div class="custom hb">
+            <p class="pb8"><strong>自动购汇授权：</strong></p>
+<p class="pb8">如您同意自动购汇授权，您的美元账户欠款在账单日自动转化成人民币账户欠款</p>
+<p><label><input type="radio" name="up" /> 同意</label><label><input type="radio" name="up" /> 不同意</label> <a href="#" class="btn_detail fr">了解详细业务条款 &gt;&gt;</a></p>
+            </div>   
+            
+            <div class="custom">
+            <p class="pb8"><strong>自动转账还款授权：</strong></p>
+<p><label><input type="radio" id="isagree_tk_yes" name="up" /> 同意</label><label><input type="radio" id="isagree_tk_no" name="up" /> 不同意</label> <a href="#" class="btn_detail fr">了解详细业务条款 &gt;&gt;</a></p>
+            </div>   
+            
+            <div class="custom hb none" id="isagree_tk_content">
+            <p class="pb8"><strong>使用交通银行借记卡授权还款借记卡号：</strong><input name="" type="text" size="" value="" class="bor bo_150" defaultMessage="请输入您的借记卡号" emptyMessage="请输入您的借记卡号" /></p>
+<p><strong>还款金额</strong> <label class="sma"><input type="radio" name="up" /> 同意</label><label class="sma"><input type="radio" name="up" /> 不同意</label></p>
+            </div> 
+            
+             <div class="custom none">
+            <p class="pb8"><strong>增值服务：</strong>  <label class="lon"><input type="radio" name="agr" /> 本人同意条款细则，并申请用卡无忧，12元/3个月</label>
+<br /><label class="lon space"><input type="radio" name="agr" /> 本人同意条款细则，并申请信用保障，9元/3个月</label></p>
+            </div> 
+            
+            
+            
+            
+            
+                
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    <div class="part_content r_info_re steps">
+    	<span class="step_state"><img src="images/step_2_2.png" class="png" /></span>
+        <div class="part_title png">自选服务</div>
+        <div class="part_content_part01">
+         <!--<div class="custom">
+                       </div> -->
+           <div class="stroke bor">
+            	<strong class="stroke_title">增值服务：</strong>
+            	<div class="pb8">
+                <label class="lon"><input type="checkbox" /> 本人同意条款细则，并申请用卡无忧，12元/3个月</label><a href="#" class="button_ash_small on" id="service_1">详细</a>
+                </div>
+                
+                <div class="ra_box dn" id="ser1_info">
+                	<div class="ra_box_content">
+                    	<div class="ra_box_content_left"><img src="images/active/demo.jpg" /></div>
+                        <div class="ra_box_content_right"><p>活动时间：2011-12-01至2012-05-31<br />活动介绍：立即申请交通银行信用卡，新客户只要刷50就送50！</p><a href="#" class="bottom-red">了解更多</a></div>
+                    </div>
+                </div>
+                <div class="pb8">
+                <label class="lon"><input type="checkbox" />本人同意条款细则，并申请信用保障，9元/3个月</label><a href="#" class="button_ash_small on" id="service_2">详细</a>
+                </div>
+                
+                <div class="ra_box dn" id="ser2_info">
+                	<div class="ra_box_content">
+                    	<div class="ra_box_content_left"><img src="images/active/demo.jpg" /></div>
+                        <div class="ra_box_content_right"><p>活动时间：2011-12-01至2012-05-31<br />活动介绍：立即申请交通银行信用卡，新客户只要刷50就送50！</p><a href="#" class="bottom-red">了解更多</a></div>
+                    </div>
+                </div>
+
+                </div>
+
+            
+                
+        </div>
+    </div>
+    
+    <div class="part_content steps">
+    	<span class="step_state"><img src="images/step_3_1.png" class="png" /></span>
+        <div class="part_title png">证件上传</div>
+        <div class="part_content_part01">
+        	<div class="man_card"><span class="fb fl">1.身份证件照片：</span><a href="#" class="button_ash fr fb">拍摄小贴士 &gt;&gt;</a></div>
+            <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_content">
+                	<p class="pb8">证件正面：</p>
+                     <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_363" /></p>
+                     <p>
+                     	<input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                        <input type="button" class="bottom-91 w70" value="上 传" />
+                     </p>
+                </div>
+            </div>
+            
+            
+            <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img src="images/card/demo2.jpg" />
+                </div>
+                <div class="man_card_content">
+                	<p class="pb8">证件背面：</p>
+                     <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_363" /></p>
+                     <p>
+                     	<input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                        <input type="button" class="bottom-91 w70" value="上 传" />
+                     </p>
+                </div>
+            </div>
+            
+            <div class="ra_box w_ra clear">
+            	<div class="ra_box_content w_ra_b">
+                <p class="fb">温馨提示：</p>
+                
+                <ul class="icon_rect b_red">
+                	<li>您上传的证件或证明文件的所有信息需清晰可见。如我们在审核过程中发现您上传的照片不
+	符合要求，可能需要您重新补件。</li>
+                	<li>
+                    建议您上传的图片<span>不小于640x480像素，大小在80K及2M之间</span>；格式可为　<span>JPG、JPEG、
+	TIF、TIFF、GIF、PNG</span>。
+                    </li>
+                </ul>
+                
+                </div>
+            </div>
+            
+        </div>
+       
+    </div>
+    
+    <div class="part_content steps">
+    	<span class="step_state"><img src="images/step_3_2.png" class="png" /></span>
+        <div class="part_title png">证件上传</div>
+        <div class="part_content_part01">
+        	<div class="man_card"><span class="fb">2. 工作证明照片：</span></div>
+            
+            <dl class="working">
+            	<dt>以下工作证明文件中的任意一种的照片或扫描件：</dt>
+                <dd>预印有工作单位名称及员工姓名的工作证、上岗证、出入证、胸牌原件</dd>
+                <dd>预印有工作单位名称及员工姓名的名片原件</dd>
+                <dd>最近3个月内单位开具的工作证明原件，加盖单位公章或人力资源部章或财务章或工会章，
+                注明开证日期</dd>
+                <dd>最近一年内由国家教委或学校颁发的教师岗位聘书原件（教师适用）</dd>
+                <dd>注册医师执业证书复印件（医生适用）</dd>            
+            </dl>           
+            
+            <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img class="work" src="images/card/demo_work.jpg" />
+                </div>
+                <div class="man_card_content">
+                	<p>&nbsp;</p>
+                     <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_363" /></p>
+                     <p>
+                     	<input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                        <input type="button" class="bottom-91 w70" value="上 传" />
+                     </p>
+                </div>
+            </div>
+            
+            
+            
+        </div>
+       
+    </div>
+    
+    
+    
+    <div class="part_content steps">
+    	<span class="step_state"><img src="images/step_3_3.png" class="png" /></span>
+        <div class="part_title png">证件上传</div>
+        <div class="part_content_part01">
+        	<div class="man_card nop"><span class="fb">3.其他证明文件照片：（您可选择如下任一至三个证明文件上传）</span></div>
+            
+            <div class="acture">
+            	<p><input type="checkbox" /> <strong>收入证明文件</strong>（您可选择以下任意一种的照片或扫描件）<a href="#" class="button_ash_small on">详细</a></p>
+                <div class="ra_box nm w_ra">
+                	<div class="ra_box_content nm w_ra_b">
+                    	<ul class="small_rect_icon">
+                         <li>最近3个月任何一个月的工资单原件</li>
+<li>显示申请人姓名和最近连续3个月内任何一个月工资收入的银行对账单/存折原件</li>
+<li>最近3个月内以单位名义开具的，盖有单位公章或人力资源部章或财务部章或工会章的工资证明原件，注明开证日期</li>
+<li>最近12个月之内任意一期个人所得税税单原件</li>
+                        </ul>                    
+                    </div>
+                </div>
+                <div class="man_card nop">
+                    <div class="man_card_left fl">
+                        <img class="work" src="images/card/demo_work.jpg" />
+                    </div>
+                    <div class="man_card_content">
+                        <p>&nbsp;</p>
+                         <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_340" /></p>
+                         <p>
+                            <input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                            <input type="button" class="bottom-91 w70" value="上 传" />
+                         </p>
+                    </div>
+                </div>                
+            </div>
+            
+            
+            <div class="acture">
+            	<p><input type="checkbox" /> <strong>财力证明文件</strong>（您可选择以下任意一种证明文件的照片或扫描件）</p>
+                
+                <div class="man_card nop">
+                    <div class="man_card_left fl">
+                        <img class="work" src="images/card/demo_work.jpg" />
+                    </div>
+                    <div class="man_card_content">
+                        <p>&nbsp;</p>
+                         <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_340" /></p>
+                         <p>
+                            <input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                            <input type="button" class="bottom-91 w70" value="上 传" />
+                         </p>
+                    </div>
+                </div>                
+            </div>
+            
+            <div class="acture">
+            	<p><input type="checkbox" /> <strong>财力证明文件</strong>（您可选择以下任意一种证明文件的照片或扫描件）</p>
+                
+                <div class="man_card nop">
+                    <div class="man_card_left fl">
+                        <img class="work" src="images/card/demo_work.jpg" />
+                    </div>
+                    <div class="man_card_content">
+                        <p>&nbsp;</p>
+                         <p class="pb8"><input name="" type="text" value="" size="" class="bor bo_340" /></p>
+                         <p>
+                            <input type="button" class="bottom-91 w70" value="浏览..." />&nbsp;&nbsp;
+                            <input type="button" class="bottom-91 w70" value="上 传" />
+                         </p>
+                    </div>
+                </div>                
+            </div>
+            
+            
+        </div>
+       
+    </div>
+    <!--- overView --->
+    <div class="overview" id="overview" style="display:none;">
+	<div class="overview-title">交通银行太平洋贷记卡申请信息总览</div>
+    <div class="overview-content" style="position:relative; overflow:hidden;">
+    	<div style="height:260px; overflow:hidden; position:relative;" id="pane2">
+        	<table cellpadding="0" cellspacing="0" border="0" class="overview-list">
+            	<tbody>
+            	<tr>
+                	<td>您所在城市：<span class="font-red">上海</span></td><td>您希望申请的卡产品：<span class="font-red">标准信用卡</span></td>
+                </tr>
+                <tr>
+                	<td>第三方会员号：<span class="font-red">上海</span></td><td>我要申请附属卡：<span class="font-red">现在申请</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您参加的营销活动：<span class="font-red">立即申请交通银行信用卡，只要刷50就送50</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您希望获得的礼品：<span class="font-red">时尚随心枕</span></td>
+                </tr>
+                <tr>
+                	<td>中文姓名：<span class="font-red">某某某</span></td><td>拼音/英文名字：<span class="font-red">Mou Moumou</span></td>
+                </tr>
+                 <tr>
+                	<td colspan="2">身份证件照片：</td>
+                </tr>
+                 <tr>
+                	<td colspan="2">
+             <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+            </div>                   
+                    </td>
+                </tr>
+
+                
+                
+                
+            </tbody>
+
+                
+                
+                
+            </table>        
+        </div>    
+    </div>
+    <div class="overview-content overview-file">
+    <strong>《网络申请信用卡声明及签署》</strong>
+    <div class="overview-file-show" style="position:relative; overflow:hidden;">
+    	<div style="height:80px; overflow:hidden; position:relative;" id="panel1">
+       本人知悉、声明并同意：
+●　本人系通过网上申请方式向贵行申办指定种类的交通银行太平洋信用卡（下称“信用卡”）。本人知悉通过网上申请方式批核的信用卡，其激活需到贵行各分行网点进行人工办理，并已了解与之有关的所有规则、流程和注意事项。
+●　本人在贵行信用卡网站上输入的申请信息、本人以网络上传方式提供的证明文件以及本人以电话等方式要求补正的信息等，共同构成本人向贵行提供的完整的信用卡申请资料（下称“申请资料”）。不论获批与否，申请资料均由贵行保留。
+l	为审核领卡申请，贵行可向人民银行个人信用数据库和经其批准的其他信用机构查询本人的信用信息和已有信用卡及其额度，并可向任何单位或个人了解核实本人的相关情况。
+l	信用卡的领用应遵守贵行网上登载的《交通银行太平洋贷记卡章程》，以及《交通银行太平洋个人贷记卡领用合约》、收费表、重要提示和其他内容（含其不时修改）。本人获批信用卡后，亦将遵守相关卡组织规则和贵行不时发布的业务规则。 
+l	贵行可通过电话、电子邮箱、短信、信函等渠道向本人推荐或营销与信用卡业务相关的产品或服务，以及贵行销售的其他金融业务。
+l	如本人申请增值服务，即视为本人同意贵行为本人投保相应的人身或财产保险，本人已通过贵行网站链接阅知并同意遵守相关增值服务条款及保险理赔细则。
+本人知悉、声明并同意：
+●　本人系通过网上申请方式向贵行申办指定种类的交通银行太平洋信用卡（下称“信用卡”）。本人知悉通过网上申请方式批核的信用卡，其激活需到贵行各分行网点进行人工办理，并已了解与之有关的所有规则、流程和注意事项。
+●　本人在贵行信用卡网站上输入的申请信息、本人以网络上传方式提供的证明文件以及本人以电话等方式要求补正的信息等，共同构成本人向贵行提供的完整的信用卡申请资料（下称“申请资料”）。不论获批与否，申请资料均由贵行保留。
+l	为审核领卡申请，贵行可向人民银行个人信用数据库和经其批准的其他信用机构查询本人的信用信息和已有信用卡及其额度，并可向任何单位或个人了解核实本人的相关情况。
+l	信用卡的领用应遵守贵行网上登载的《交通银行太平洋贷记卡章程》，以及《交通银行太平洋个人贷记卡领用合约》、收费表、重要提示和其他内容（含其不时修改）。本人获批信用卡后，亦将遵守相关卡组织规则和贵行不时发布的业务规则。 
+l	贵行可通过电话、电子邮箱、短信、信函等渠道向本人推荐或营销与信用卡业务相关的产品或服务，以及贵行销售的其他金融业务。
+l	如本人申请增值服务，即视为本人同意贵行为本人投保相应的人身或财产保险，本人已通过贵行网站链接阅知并同意遵守相关增值服务条款及保险理赔细则。
+
+       </div>
+    </div>
+    <div class="la"><label><input type="checkbox" checked="checked" /> 本人已阅读并知晓声明及签署中的相关内容</label></div>
+    <div class="la"><label><input type="checkbox" checked="checked" /> 本人已阅读并知晓重要提示中的相关内容</label></div>
+    <div class="div_allup">
+    	<a href="javascript:void(0)" class="part_btn">确认提交</a><a href="javascript:void(0)" class="part_btn r2 popClose">返回修改</a>
+    </div>
+    </div>
+</div>
+	<!--- rule --->
+	<div class="overview" id="overrule" style="display:none;">
+	<div class="overview-title">《交通银行太平洋贷记卡章程》</div>
+    <div class="overrule-content" style="position:relative; overflow:hidden;">
+    	<div style="height:400px; overflow:hidden; position:relative;" id="panel4">
+        	<table cellpadding="0" cellspacing="0" border="0" class="overview-list">
+            	<tbody>
+            	<tr>
+                	<td>您所在城市：<span class="font-red">上海</span></td><td>您希望申请的卡产品：<span class="font-red">标准信用卡</span></td>
+                </tr>
+                <tr>
+                	<td>第三方会员号：<span class="font-red">上海</span></td><td>我要申请附属卡：<span class="font-red">现在申请</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您参加的营销活动：<span class="font-red">立即申请交通银行信用卡，只要刷50就送50</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您希望获得的礼品：<span class="font-red">时尚随心枕</span></td>
+                </tr>
+                <tr>
+                	<td>中文姓名：<span class="font-red">某某某</span></td><td>拼音/英文名字：<span class="font-red">Mou Moumou</span></td>
+                </tr>
+                 <tr>
+                	<td colspan="2">身份证件照片：</td>
+                </tr>
+                 <tr>
+                	<td colspan="2">
+             <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                
+            </div>                   
+                    </td>
+                </tr> 
+            </tbody> 
+            </table>        
+        </div>    
+    </div>
+    <div class="overrule-content overview-file">
+    <div class="div_allup">
+    	<a href="javascript:void(0)" class="part_btn r2 popClose">返回</a>
+    </div>
+    </div>
+</div>
+	<!-- contract -->
+    <div class="overview" id="overcontract" style="display:none;">
+	<div class="overview-title">《交通银行太平洋个人贷记
+卡领用合约》</div>
+    <div class="overcontract-content" style="position:relative; overflow:hidden;">
+    	<div style="height:400px; overflow:hidden; position:relative;" id="panel3">
+        	<table cellpadding="0" cellspacing="0" border="0" class="overview-list">
+            	<tbody>
+            	<tr>
+                	<td>您所在城市：<span class="font-red">上海</span></td><td>您希望申请的卡产品：<span class="font-red">标准信用卡</span></td>
+                </tr>
+                <tr>
+                	<td>第三方会员号：<span class="font-red">上海</span></td><td>我要申请附属卡：<span class="font-red">现在申请</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您参加的营销活动：<span class="font-red">立即申请交通银行信用卡，只要刷50就送50</span></td>
+                </tr>
+                <tr>
+                	<td colspan="2">您希望获得的礼品：<span class="font-red">时尚随心枕</span></td>
+                </tr>
+                <tr>
+                	<td>中文姓名：<span class="font-red">某某某</span></td><td>拼音/英文名字：<span class="font-red">Mou Moumou</span></td>
+                </tr>
+                 <tr>
+                	<td colspan="2">身份证件照片：</td>
+                </tr>
+                 <tr>
+                	<td colspan="2">
+             <div class="man_card">
+            	<div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+                <div class="man_card_left fl">
+                	<img src="images/card/demo1.jpg" />
+                </div>
+                
+            </div>                   
+                    </td>
+                </tr>               
+                
+            </tbody>               
+                
+            </table>        
+        </div>    
+    </div>
+    <div class="overcontract-content overview-file">
+    <div class="div_allup">
+    	<a href="javascript:void(0)" class="part_btn r2 popClose">返回</a>
+    </div>
+    </div>
+</div>
+    
+    </div>
+    <a href="javascript:void(0)" class="btn_step step_left png" id="sleft">上一页</a>
+    <a href="javascript:void(0)" class="btn_step step_right png" id="sright">下一页</a>
+</div>
+<div class="footer">
+  <div class="f_copy">© 2012 交通银行版权所有 未经许可不得转载<strong>服务热线：400-800-9888</strong></div>
+</div>
+<script language="javascript">
+$(function(){
+	var $step = $(".steps");
+	var $menu = $(".step li");
+	var len = $step.length;
+	var _stepshow = 0;	
+	var _re = "ok";
+	var $tip = $("#tips");
+	var $tipshow = $tip.find(".tip-right");
+	var $tempobj;
+	var $tipState = true;
+	//$("#ts").html(_stepshow);
+	//$("#cardnumber").css({position:'relative'});
+	//showTip($("#cardnumber"));
+	var ou = true;
+	
+	function showStep(rule,next)
+	{		
+		if(rule)
+		{
+			if(_stepshow==len)
+			{
+				_stepshow==len;
+				return;	
+			}
+			if(ou)
+			{
+				_stepshow++;
+				$step.eq(_stepshow).css({display:'block'}).siblings().css({display:'none'});
+				//alert(123);
+				ou = false;
+			}
+			
+			if(showMenu(_stepshow,next))
+			{	
+				ou = false;
+				//alert(_stepshow);
+				return false;
+			}	
+			else
+			{
+				//alert(456);
+				ou = true;	
+				if(ou)
+				{
+					_stepshow++;
+					$step.eq(_stepshow).css({display:'block'}).siblings().css({display:'none'});
+					//alert(123);
+					ou = false;
+				}
+			}
+			/*
+			showMenu(_stepshow);
+			$step.eq(_stepshow).css({display:'block'}).siblings().css({display:'none'});
+			*/
+		}else{
+			if(_stepshow==0)
+			{				
+				return;	
+			}
+			else if(_stepshow==len)
+			{
+				_stepshow=len-2;
+			}
+			else
+			{ _stepshow--; }
+			//alert(_stepshow);
+			showMenu(_stepshow);
+			$step.eq(_stepshow).css({display:'block'}).siblings().css({display:'none'});
+		}
+		$("#tipclose").click();
+		$("#ts").html(_stepshow);		
+	}
+	$('#sright').bind('click',function(){ showStep(true,true); });
+	$('#sleft').bind('click',function(){ showStep(); });
+	$('#rule_btn').bind('click',function(){ $.lightBox("#overrule");
+											setTimeout(function(){
+												$('#panel4').jScrollPane({dragMaxHeight:70,dragMinHeight:70,scrollbarWidth:16});			
+												$(".overrule-content .jScrollPaneTrack").addClass("two");	
+											},200);
+										 });
+	$('#contract_btn').bind('click',function(){
+											$.lightBox("#overcontract");
+											setTimeout(function(){
+												$('#panel3').jScrollPane({dragMaxHeight:70,dragMinHeight:70,scrollbarWidth:16});			
+												$(".overcontract-content .jScrollPaneTrack").addClass("two");	
+											},200);			
+		 });
+	
+	//$('#tip_info').bind('click',function(){ showStep(true); });
+	//活动
+		$('#active_1').toggle(function(){ 
+			$(this).removeClass('on').addClass('off');
+			$('#act1_info').slideToggle();
+			},function(){
+			$(this).removeClass('off').addClass('on');
+			$('#act1_info').slideToggle();
+		});
+		
+		$('#active_2').toggle(function(){
+			$(this).removeClass('on').addClass('off');
+			$('#act2_info').slideToggle();
+			},function(){
+			$(this).removeClass('off').addClass('on');
+			$('#act2_info').slideToggle();
+		});
+		
+		$('#active_3').toggle(function(){
+			$(this).removeClass('on').addClass('off');
+			$('#act3_info').slideToggle();
+			},function(){
+			$(this).removeClass('off').addClass('on');
+			$('#act3_info').slideToggle();
+		});
+		//自选服务
+		$('#service_1').toggle(function(){ 
+			$(this).removeClass('on').addClass('off');
+			$('#ser1_info').slideToggle();
+			},function(){
+			$(this).removeClass('off').addClass('on');
+			$('#ser1_info').slideToggle();
+		});
+		$('#service_2').toggle(function(){ 
+			$(this).removeClass('on').addClass('off');
+			$('#ser2_info').slideToggle();
+			},function(){
+			$(this).removeClass('off').addClass('on');
+			$('#ser2_info').slideToggle();
+		});
+
+
+	function showMenu(id,next){
+		switch(id)
+		{
+			case 0:
+			subReset($menu.eq(0));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;	
+			case 1:			
+			subReset($menu.eq(0));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;
+			case 2:	
+			//--- focus --//
+			//bindP2Btn();
+			subReset($menu.eq(1));
+			//`alert(0);
+			$tempobj = $('#basic_name');
+			_re = checkName(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#basic_name_en');
+			_re = checkName(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#basic_name_en_1');
+			_re = checkName(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }			
+			
+			$tempobj = $('#basic_cardtype');
+			if($tempobj.val()==0){
+				$tempobj = $('#basic_cardnumber');
+				_re = checkNameCard(v($tempobj));
+				if(_re=="ok")
+				{}else{ showTip($tempobj,_re); return true; }		
+			}else{
+				$tempobj = $('#basic_cardnumber');
+				_re = checkNameCardIsNull(v($tempobj));
+				if(_re=="ok")
+				{}else{ showTip($tempobj,_re); return true; }		
+			}
+
+			$tempobj = $('#basic_birthday');
+			_re = CheckDate(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }						
+			
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;	
+			case 3:
+			subReset($menu.eq(1));
+			$tempobj = $('#basic_tel_p1');
+			_re = checkTel(v($tempobj),0);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			$tempobj = $('#basic_tel_p2');
+			_re = checkTel(v($tempobj),1);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#basic_mobile');
+			_re = checkMPhone(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#basic_email_p1');
+			_re = checkEmailByPart(v($tempobj),0);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			$tempobj = $('#basic_email_p2');
+			_re = checkEmailByPart(v($tempobj),1);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			
+			$tempobj = $('#basic_inhome_year');
+			_re = CheckDateByPart(v($tempobj),"y");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }		
+		
+			$tempobj = $('#basic_inhome_month');
+			_re = CheckDateByPart(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }		
+			
+			
+			
+			
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;
+			case 4:
+			$tempobj = $('#company_name');
+			_re = checkcompany(v($tempobj));
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_tel_p1');
+			_re = checkTel(v($tempobj),0);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_tel_p2');
+			_re = checkTel(v($tempobj),1);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_tel_p3');
+			_re = checkTel(v($tempobj),2);
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+				
+			$tempobj = $('#company_depa');
+			_re = checkNull(v($tempobj),"company_depa");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_depa_name');
+			_re = checkNull(v($tempobj),"company_depa_name");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_val_b');
+			_re = checkNumber(v($tempobj),"company_val_b");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			$tempobj = $('#company_val_a');
+			_re = checkNumber(v($tempobj),"company_val_a");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+			
+			$tempobj = $('#company_workyear');
+			_re = checkNumber(v($tempobj),"company_workyear");
+			if(_re=="ok")
+			{}else{ showTip($tempobj,_re); return true; }
+			
+				
+			
+			subReset($menu.eq(2));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;	
+			case 5:
+			
+			
+			subReset($menu.eq(3));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;
+			case 6:
+			
+			
+			subReset($menu.eq(4));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;
+			case 7:
+			
+			subReset($menu.eq(4));
+			if(next)
+			{ }else{ return true; }
+			return false;
+			break;			
+			case 8:
+			subReset($menu.eq(5));
+			if(next)
+			{ }else{ return true; }
+			break;
+			case 9:
+			subReset($menu.eq(5));
+			if(next)
+			{ }else{ return true; }
+			break;
+			case 10:	
+			$.lightBox("#overview");
+			setTimeout(function(){
+				$('#panel1').jScrollPane({dragMaxHeight:44,dragMinHeight:44,scrollbarWidth:10});
+				$('#pane2').jScrollPane({dragMaxHeight:70,dragMinHeight:70,scrollbarWidth:16});			
+				$(".overview-file-show .jScrollPaneTrack").css({background:"#eee"});
+				$(".overview-file-show .jScrollPaneDrag").addClass("two");				
+			},200);
+			subReset($menu.eq(6));
+			if(next)
+			{ }else{ return true; }
+			break;
+			
+		}	
+	}
+	
+	function subReset(obj){
+		obj.addClass('on').siblings().removeClass('on');	
+	}
+	
+	function showTip(obj,txt,isf){
+		if(isf)
+		{ $('.tips').addClass('me'); }
+		else
+		{ $('.tips').removeClass('me'); }
+		var of = obj.offset();
+		$tipshow.html(txt);
+		$tip.css({left:of.left,top:of.top-55,display:'block'});
+		//obj.focus();
+	}
+	
+	
+	$("input[type='text']").each(function(){
+		var $this = $(this);	
+		var _dv = $this.attr('defaultMessage');	
+		$this.focus(function(){
+			if(_dv!="")
+			{
+				showTip($this,_dv,true);
+			}
+		});
+	}).blur(function(){
+		$("#tipclose").click();
+		showStep(true,false);		
+	});
+	
+	
+	
+	
+	
+	
+	function checkObjByValue(obj)
+	{
+		_re = checkName(v(obj));
+		if(_re=="ok")
+		{}else{ showTip(obj,_re); return true; }	
+	}
+		
+	
+	$("#tipclose").bind('click',function(){ $tip.fadeOut('slow'); });
+	
+function v(obj){
+	return obj.val();
+}
+
+$('#isagree_tk_yes').click(function(){ $('#isagree_tk_content').css({display:'block'}); });
+$('#isagree_tk_no').click(function(){ $('#isagree_tk_content').css({display:'none'}); });	
+
+
+
+	//Match
+function execReg(reg,str){
+	var result = reg.exec(str);
+ 	return result;
+}
+//check Name--姓名
+function checkName(str){
+	//--- reg ---//
+	var reg = /^[\u4E00-\u9FA5\a-zA-z^.]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		return "您的姓名含空格或符号。如姓名中含有点，请输入英文半角.。";
+	}
+}
+
+//check Name--姓名
+function check(str){
+	//--- reg ---//
+	var reg = /^[\u4E00-\u9FA5\a-zA-z^.]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		return "您的姓名含空格或符号。如姓名中含有点，请输入英文半角.。";
+	}
+}
+
+//check Name--空
+function checkNameCardIsNull(str){
+	//--- reg ---//
+	if(str!= ""){
+		return "ok";
+	}else{
+		return "请输入您的证件号码。";
+	}
+}
+
+//example
+//checkName("wo我我.ssfSsa");
+
+//checkNameCard--证件号--身份证
+function checkNameCard(str){
+	var iLen,strReg;
+	iLen = str.length;
+	switch (iLen){
+	  case 15:
+	  	 strReg = /^\d{15}/;
+		  if (execReg(strReg,str)!=null){
+			  return "ok";
+		  }else{
+			  return "您的证件号含符号或空格。如证件中含括号，请输入英文半角()。";
+		  }		
+	  break;
+	  case 18:
+	  	strReg = new RegExp(/^(\d{17})(\d|[Xx])$/);
+		var arrSplit = str.match(strReg);
+		if(arrSplit != null){
+			if(arrSplit[2] === "x"){
+				return "请以大写输入证件号中的X。";
+			}else{
+				return "ok";
+			}
+		}else{
+			return  "您的证件号含符号或空格。如证件中含括号，请输入英文半角()。";
+		}
+	  break;
+	  default:
+		  return "您输入的身份证件号码有误";
+	  break;
+	}
+
+}
+//example
+//checkNameCard("31010719861206391x");
+//checkcard---证件号
+function checkcard(str){
+	var reg = /^[\u4E00-\u9FA5\x00-\xff]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		return "您的姓名含空格或符号。如姓名中含有点，请输入英文半角.。";
+	}
+}
+
+
+//checkcard---单位
+function checkcompany(str){
+	var reg = /^[\u4E00-\u9FA5\x00-\xff]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		return "请输入您的单位名称。";
+	}
+}
+
+//checkcard---单位
+function checkNull(str,t){
+	var reg = /^[\u4E00-\u9FA5\x00-\xff]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		switch(t){
+			case "company_name":
+			return "请输入您的单位名称。";
+			break;
+			case "company_depa":
+			return "请输入您的任职部门。";
+			break;	
+			case "company_depa_name":
+			return "请输入您的工作岗位。";
+			break;		
+		}
+		
+	}
+}
+
+//checkcard---单位
+function checkNumber(str,t){
+	var reg = /^\d{1,}$/;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		switch(t){
+			case "company_val_b":
+			return "请输入您的税前年薪收入。";
+			break;
+			case "company_val_a":
+			return "请输入您的税前年其他收入。";
+			break;	
+			case "company_workyear":
+			return "请输入您的前一单位工龄。";
+			break;		
+		}
+		
+	}
+}
+
+
+//checkcard("fffsx///fssfsa..sfa");
+
+//checkMember---第三方会员号
+function checkMember(str){
+	var strReg =/^(\d)*$/g;
+	if(execReg(strReg,str) != null){
+		return "ok";
+	}else{
+		return "您输入的会员号含非数字信息";
+	}
+}
+//example
+//checkMember("!！！１");
+function CheckDate(str){
+	var strReg = /^(\d{4})-(\d{2})-(\d{2})$/;
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的日期格式有误";
+		}
+}
+
+
+
+//checkMember("!！！１");
+function CheckDateByPart(str,r){
+	var strReg = /^\d{4}$/;
+	var strReg2 = /^\d{2}$/;
+		
+	if(r=="y"){
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的日期格式有误";
+		}
+	}else{	
+		if(execReg(strReg2,str) != null){
+			return "ok";
+		}else{
+			return "您输入的日期格式有误";
+		}
+	}
+}
+
+
+
+//CheckData("2012-12-12");
+
+//checkphone
+function checkMPhone(str){
+	var strReg = /^1[3|4|5|8][0-9]\d{8}$/;
+	if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的移动电话有误";
+		}
+}
+
+//example
+//checkMPhone("1363657363");
+
+function checkCode(str){
+		var strReg = /^[1-9][0-9]{5}$/;
+	if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "邮政编码格式不正确";
+		}
+}
+//checkCode("200438");
+
+//checkEmail
+function checkEmail(str){
+	var strReg = /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/;
+	if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的电子邮箱有误";
+		}
+
+}
+
+//checkEmail
+function checkEmailByPart(str,r){
+	var strReg = /^([a-zA-Z0-9_-])+$/;
+	var strReg2 = /^([a-zA-Z0-9_-])+((\.[a-zA-Z0-9_-]{2,3}){1,2})$/
+	if(r==0){
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入有误";
+		}
+	}else{	
+		if(execReg(strReg2,str) != null){
+			return "ok";
+		}else{
+			return "您输入有误";
+		}
+	}
+}
+
+
+
+
+//checkEmail("shy._1206@hot.com");
+function checkIncome(str){
+	var strReg =/^\d{7}/;
+	//alert(execReg(strReg,str));
+	if(execReg(strReg,str) != null){
+		return "ok";
+	}else{
+		return "您输入的收入含非数字信息";
+	}
+}
+//checkIncome("111e111111e111");
+
+//checkPhone
+function checkPhone(str){
+	var strReg = /^(\(\d{3,4}\)|\d{3,4}-)?\d{7,8}$/;
+	if(execReg(strReg,str) != null){
+		return "ok";
+	}else{
+		return "您输入的电话号码有误";
+	}
+	
+}
+
+//checkPhone
+function checkTel(str,r){
+	var strReg = /^\d{3,4}$/;
+	if(r==0){
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的区号有误";
+		}
+	}else if(r==1){
+		strReg = /^\d{7,8}$/;	
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的电话号码有误";
+		}
+	}else{
+		strReg = /^\d{1,}$/;	
+		if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入分机号码有误";
+		}	
+	}
+	
+}
+
+//checkPhone("021-62578088");
+
+	
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@charset "utf-8";
+/*part_0*/
+.center{width:1000px;margin:0 auto;overflow:hidden;border-top:8px solid #00367a;border-bottom:3px solid #cb0600;position:relative;}
+.part{background:url(../images/partbg.jpg) no-repeat;height:460px;font-size:14px;text-align:left;}
+.part00,.part01,.part04{overflow:hidden;padding-left:100px;}
+.part00{width:438px;margin:110px auto 0 auto;}
+.part h2{font-size:14px;line-height:30px;}
+.part p{padding-left:24px;line-height:25px;}
+.part .part01_ul{padding-top:20px;overflow:hidden;}
+.part .part01_ul li{margin-bottom:10px;line-height:25px;}
+.part .part01_ul li strong{padding-left:60px;}
+.part .bo_150{width:150px;height:20px;line-height:20px;}
+.part .part_btn{width:112px;padding:6px 0 10px 0;background:url(../images/btnbg.png) no-repeat;color:#fff;font-weight:bold;font-size:14px;text-align:center;float:right;margin:10px 190px 0 0;cursor:pointer;}
+.part01{width:438px;margin:150px auto 0 auto;}
+.part01 .part_btn{margin-top:20px;}
+.part03{width:438px;margin:150px auto 0 auto;overflow:hidden;padding-left:200px;}
+.part03 .part03_ul{width:438px;overflow:hidden;font-weight:bold;}
+.part03 .part03_ul li{margin-bottom:10px;}
+.part03 .part03_ul li.part_ti{margin-bottom:20px;}
+.part03 .part03_ul li.part_ti input{margin:0 5px 0 15px;display:inline;}
+.part03 .part03_ul strong{width:118px;float:left;display:block;text-align:right;color:#999;}
+.part03 .part03_ul li.part_ti strong{color:#333;}
+.part04{width:280px;margin:180px auto 0 auto;}
+.part04 .part_btn{margin:20px 100px 0 0;}
+.part03 .part_btn{margin:20px 205px 0 0;}
+.center .tipbg{position:absolute;background:#000;filter:alpha(opacity=70);-moz-opacity:0.7; -khtml-opacity:0.7;opacity: 0.7;left:0;top:0;width:1000px;height:460px;z-index:1;}
+.center .part_tip{width:403px;height:166px;position:absolute;background:url(../images/tip.png) no-repeat;left:300px;top:0;padding-top:178px;z-index:999;}
+.center .part_tip .part_ico{padding-left:20px;width:383px;margin:0 auto;overflow:hidden;color:#e71e0f;line-height:60px;font-weight:bold;font-size:16px;}
+.center .part_tip .part_ico .ico_gan{width:61px;height:60px;background:url(../images/ico.png) no-repeat;display:block;float:left;margin-right:10px;}
+.center .part_tip .part_btn{margin:30px 145px 0 0;}

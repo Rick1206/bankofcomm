@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>首页</title>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+<script type="text/javascript" src="../html/js/jquery-1.4.2min.js"></script>
+<link href="css/base.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!--[if lt IE 7]>
+<script type="text/javascript" src="js/DD_belatedPNG_0.0.8a-min.js" charset="utf-8"></script>
+<script>
+	DD_belatedPNG.fix('.png,.eaMask');
+    document.execCommand("BackgroundImageCache",false,true);
+</script>
+<![endif]-->
+</head>
+<body>
+<div class="header">
+	<a href="" class="fl"><img src="images/logo.jpg" /></a>
+    <a href="" class="fr"><img src="images/hsbc.jpg" /></a>
+</div>
+<div class="center part" id="part">
+	<div class="part00">
+    	<h2>尊敬的客户：</h2>
+        <p class="fb">请您填写如下资料，以便我们为您选择最快捷的申请通道。</p>
+    	<form action="" method="get">
+        <ul class="part01_ul">
+        	<li><strong>您的姓名：</strong><input name="" type="text" value="" size="" class="bor bo_150" id="c_name"/></li>
+            <li><strong>证件类型：</strong><select class="bor bo_150" id="basic_cardtype">
+            <option value="0">境内居民身份证 </option><option value="1">护照 </option>
+            <option value="2">港澳居民来往内地通行证</option>
+            <option value="3">台湾同胞来往内地通行证（台胞证）</option>
+            <option value="4">军官证（军官退休证、军人证、文职军官证、军官文职证、军人文职证、中华人民解放军文职干部证）</option>
+            <option value="5">士兵证</option>
+            <option value="6">警官证、警察工作证、警察退休证</option>
+            <option value="7">外国人居留证</option>
+            <option value="8">其他</option>
+            </select></li>
+            <li><strong>证件号码：</strong><input name="" type="text" value="" size="" class="bor bo_150" id="c_cardnumber"/></li>
+        </ul>
+        <input name="" type="button" class="part_btn png" value="客户验证" id="b_check" />
+        </form>
+    </div>
+    
+    <div class="part01" id="part_speed" style="display:none;">
+    	<h2>亲爱的客户：</h2>
+        <p class="fb">您已经是交通银行现有主卡持卡人，可进入现有客户快速</p>
+        <p class="fb">申请通道进行身份验证及办理申请业务。</p>
+    	<input name="" type="button" class="part_btn png" value="进入申请"/>
+    </div>
+    
+    <div class="part01" id="part_china_card_error" style="display:none;">
+    	<h2>亲爱的客户：</h2>
+        <p class="fb">目前在线申请业务只面向持有身份证办理业务的客户开放，您可以通过如下方式办理申请业务：</p>
+        <p class="fb">1、至交通银行各分行网点</p>
+        <p class="fb">2、致电办卡咨询热线400-889-0989或24小时客户服务热线</p>
+    	<input name="" type="button" class="part_btn png" value="进入申请"/>
+    </div>
+    
+    <div class="part03" id="part_teyao" style="display:none;">
+    <ul class="part03_ul">
+        	<li class="part_ti"><strong>我是特邀客户</strong><input id="isyis" name="cc" type="radio" value="0" checked="checked" />不是<input name="cc" id="isyno" type="radio" value="1" />是</li>
+<li class="ishavey" style="display:none;"><strong>输入邀请码：</strong><input name="" id="yaoq_code" type="text" value="" size="" class="bor bo_150"/></li>
+            <li class="ishavey" style="display:none;"><strong>移动电话：</strong><input name="" id="yaoq_phone" type="text" value="" size="" class="bor bo_150"/></li>
+        </ul>
+    	<input name="" type="button" class="part_btn png" value="确　认" id="sub_yaoqing" />
+    </div>
+    
+    
+    <div class="part04" id="part_young_error" style="display:none;">
+    <h2>亲爱的客户：</h2>
+    <p class="fb">目前交通银行信用卡主卡申请业务需年满18周岁。</p>
+    <input name="" type="button" class="part_btn png" value="确　认"/>
+  </div>
+    
+</div>
+
+<div class="center part" id="part_tip" style="display:none;">
+	<div class="tipbg"></div>
+    <div class="part_tip png">
+    	<div class="part_ico"><span class="ico_gan png"></span>您输入的邀请码有误，请重新输入。</div>
+       <input name="" type="button" class="part_btn png" value="确　认" id="tip_error_return" />
+     </div>
+</div>
+
+<div class="footer">
+  <div class="f_copy">© 2012 交通银行版权所有 未经许可不得转载<strong>服务热线：400-800-9888</strong></div>
+</div>
+</body>
+</html>
+<script language="javascript">
+$(function(){
+	
+	$b_check = $('#b_check');
+	$b_check.bind('click',function(){
+		var _nu = $('#basic_cardtype').val();
+		var _name = $('#c_name').val();
+		var _cn = $('#c_cardnumber').val();
+		if(_nu!=0){
+			so($('#part_china_card_error'));
+		}	
+		else
+		{
+			if(checkName(_name)=="ok")
+			{}else{ alert(checkName(_name)); return false; }
+			if(checkNameCard(_cn)=="ok")
+			{}else{ alert(checkNameCard(_cn)); return false;}
+			
+			if(check()){
+				so($('#part_speed'));
+			}	
+			else
+			{
+				var reg =  new RegExp(/^(\d{6})(\d{4})(\d{4})(\d{3})(\d|[X])$/);
+				var res = _cn.match(reg);
+				var da = new Date();
+				da = da.getFullYear();
+				if(da-RegExp.$2<18)
+				{
+					so($('#part_young_error'));
+				}
+				else
+				{
+					so($('#part_teyao'));
+					var $ishavey = $('.ishavey');	
+					$('#isyno').click(function(){
+						$ishavey.css({display:'block'});
+						
+						var $tip = $('#part_tip');
+						var $part = $('#part');
+						$('#tip_error_return').click(function(){
+							$tip.css({display:'none'});
+							$part.css({display:'block'});	
+						});
+						
+						$("#sub_yaoqing").unbind('click');
+						$("#sub_yaoqing").bind('click',function(){
+							
+							
+							
+							if($('#yaoq_code').val()=="")
+							{
+								alert("输入邀请码");
+								$('#yaoq_code').focus();
+								return;	
+							}
+							var _phone = $('#yaoq_phone').val();
+							if(checkMPhone(_phone)=="ok")
+							{}else{ alert(checkMPhone(_phone)); return false;}
+							
+							
+							if(checkCode())
+							{
+								alert("执行跳转");
+							}
+							else
+							{
+								$tip.css({display:'block'});
+								$part.css({display:'none'});	
+							}
+							
+						});	
+					});
+					$('#isyis').click(function(){
+						$ishavey.css({display:'none'});	
+						$("#sub_yaoqing").unbind('click');
+						$("#sub_yaoqing").bind('click',function(){
+							alert("执行跳转");
+						})
+					});
+				}
+			}
+		}
+	});
+	
+	function so(obj){
+		obj.css({display:'block'}).siblings().css({display:'none'});
+	}
+	
+	function check()
+	{
+		//验证用户名，身份证
+		//return true;
+		return false;
+	}
+	
+	function checkCode()
+	{
+		//验证邀请码
+		//return true;
+		return true;
+	}
+	
+	//checkNameCard--证件号--身份证
+function checkNameCard(str){
+	var iLen,strReg;
+	iLen = str.length;
+	switch (iLen){
+	  case 15:
+	  	 strReg = /^\d{15}/;
+		  if (execReg(strReg,str)!=null){
+			  return "ok";
+		  }else{
+			  return "您的证件号含符号或空格。如证件中含括号，请输入英文半角()。";
+		  }		
+	  break;
+	  case 18:
+	  	strReg = new RegExp(/^(\d{17})(\d|[Xx])$/);
+		var arrSplit = str.match(strReg);
+		if(arrSplit != null){
+			if(arrSplit[2] === "x"){
+				return "请以大写输入证件号中的X。";
+			}else{
+				return "ok";
+			}
+		}else{
+			return  "您的证件号含符号或空格。如证件中含括号，请输入英文半角()。";
+		}
+	  break;
+	  default:
+		  return "您输入的身份证件号码有误";
+	  break;
+	}
+
+}
+
+	//Match
+function execReg(reg,str){
+	var result = reg.exec(str);
+ 	return result;
+}
+//check Name--姓名
+function checkName(str){
+	//--- reg ---//
+	var reg = /^[\u4E00-\u9FA5\a-zA-z^.]+$/g;
+	if(execReg(reg,str)!= null){
+		return "ok";
+	}else{
+		return "您的姓名含空格或符号。如姓名中含有点，请输入英文半角.。";
+	}
+}
+
+//checkphone
+function checkMPhone(str){
+	var strReg = /^1[3|4|5|8][0-9]\d{8}$/;
+	if(execReg(strReg,str) != null){
+			return "ok";
+		}else{
+			return "您输入的移动电话有误";
+		}
+}
+	
+});
+</script>
